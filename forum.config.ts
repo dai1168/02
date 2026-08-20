@@ -44,8 +44,8 @@ export default defineForumConfig({
 	},
 
 	admins: {
-		logins: ['NotReeceHarris'], // GitHub logins that get the admin badge
-		badgeLabel: 'Admin'  // label shown next to admin usernames
+		logins: ['dai1168','xiaogao9901'], // GitHub logins that get the admin badge
+		badgeLabel: '管理员'  // label shown next to admin usernames
 	},
 
 	// Custom badges shown next to usernames: label → GitHub logins
