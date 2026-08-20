@@ -48,8 +48,6 @@ export default defineForumConfig({
 		badgeLabel: '管理员'  // label shown next to admin usernames
 	},
 
-	oauthClientId:"Ov23lizeDQuBtis5T3uM",
-	
 	// Custom badges shown next to usernames: label → GitHub logins
 	badges: {
 		//'Moderator': ['dai1168'],
