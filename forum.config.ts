@@ -101,4 +101,10 @@ export default defineForumConfig({
 			// primary: 'hsl(217 91% 60%)'
 		}
 	}
+	features: {
+  		oauth: true,
+  		oauthClientId: "Ov23lizeDQuBtis5T3uM",
+  		reactions: true,
+  		search: true,
+	}
 });
