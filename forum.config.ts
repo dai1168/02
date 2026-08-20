@@ -17,7 +17,7 @@ import { defineForumConfig } from './src/lib/config/schema';
  */
 export default defineForumConfig({
 	site: {
-		name: 'Discussion Kit',
+		name: '大城市论坛',
 		description: 'A community forum powered by GitHub Discussions',
 		// logo: '💬',                        // emoji shown instead of the default icon
 		footer: 'Powered by GitHub Discussions'
@@ -48,10 +48,12 @@ export default defineForumConfig({
 		badgeLabel: '管理员'  // label shown next to admin usernames
 	},
 
+	oauthClientld:"Ov23lizeDQuBtis5T3uM",
+	
 	// Custom badges shown next to usernames: label → GitHub logins
 	badges: {
-		'Moderator': ['NotDevenBriers'],
-		// 'Contributor': ['someuser', 'anotheruser']
+		'Moderator': ['dai1168'],
+		'Contributor': ['xiaogao9901']
 	},
 
 	content: {
@@ -68,7 +70,7 @@ export default defineForumConfig({
 	features: {
 		search: true,
 		reactions: true,
-		upvotes: true
+		//upvotes: true
 	},
 
 	// Optional reputation system: users earn rep for activity, topics can
@@ -100,11 +102,5 @@ export default defineForumConfig({
 		dark: {
 			// primary: 'hsl(217 91% 60%)'
 		}
-	}
-	features: {
-  		oauth: true,
-  		oauthClientId: "Ov23lizeDQuBtis5T3uM",
-  		reactions: true,
-  		search: true,
 	}
 });
