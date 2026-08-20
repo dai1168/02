@@ -25,8 +25,8 @@ export default defineForumConfig({
 
 	repo: {
 		// Omit owner/name to auto-detect when building in GitHub Actions.
-		owner: 'NotReeceHarris',
-		name: 'discussion-kit'
+		owner: 'dai1168',
+		name: '01'
 	},
 
 	// Extra header links
