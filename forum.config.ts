@@ -1,5 +1,4 @@
 import { defineForumConfig } from './src/lib/config/schema';
-
 /**
  * ─────────────────────────────────────────────────────────────────────────────
  *  Discussion Kit configuration
